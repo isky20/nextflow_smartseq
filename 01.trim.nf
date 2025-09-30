@@ -4,7 +4,7 @@ process TRIM_ADAPTOR {
   errorStrategy 'terminate'
 
 
-  publishDir ( params.outdir ?: "${projectDir}/2.trimmed" ), mode: 'copy', overwrite: true
+  publishDir ( params.outdir ?: "${projectDir}/012.QC_OK" ), mode: 'copy', overwrite: true
 
   input:
   tuple val(sample), path(r1), path(r2) 
