@@ -29,5 +29,5 @@ process ALIGN_STAR {
   --outFileNamePrefix "${sample}."
 
   """
-}
-    
+}  
+
